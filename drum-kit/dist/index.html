@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Drum Kit / #JavaScript30</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="notas">
+      <div class="nota" data-key="KeyA">
+        <kbd>A</kbd>
+        <p class="som">clap</p>
+      </div>
+      <div class="nota" data-key="KeyS">
+        <kbd>S</kbd>
+        <p class="som">hihat</p>
+      </div>
+      <div class="nota" data-key="KeyD">
+        <kbd>D</kbd>
+        <p class="som">kick</p>
+      </div>
+      <div class="nota" data-key="KeyF">
+        <kbd>F</kbd>
+        <p class="som">openhat</p>
+      </div>
+      <div class="nota" data-key="KeyG">
+        <kbd>G</kbd>
+        <p class="som">boom</p>
+      </div>
+      <div class="nota" data-key="KeyH">
+        <kbd>H</kbd>
+        <p class="som">ride</p>
+      </div>
+      <div class="nota" data-key="KeyJ">
+        <kbd>J</kbd>
+        <p class="som">snare</p>
+      </div>
+      <div class="nota" data-key="KeyK">
+        <kbd>K</kbd>
+        <p class="som">tom</p>
+      </div>
+      <div class="nota" data-key="KeyL">
+        <kbd>L</kbd>
+        <p class="som">tink</p>
+      </div>
+    </div>
+
+    <audio src="/drum-kit/sons/clap.wav" data-key="KeyA"></audio>
+    <audio src="/drum-kit/sons/hihat.wav" data-key="KeyS"></audio>
+    <audio src="/drum-kit/sons/kick.wav" data-key="KeyD"></audio>
+    <audio src="/drum-kit/sons/openhat.wav" data-key="KeyF"></audio>
+    <audio src="/drum-kit/sons/boom.wav" data-key="KeyG"></audio>
+    <audio src="/drum-kit/sons/ride.wav" data-key="KeyH"></audio>
+    <audio src="/drum-kit/sons/snare.wav" data-key="KeyJ"></audio>
+    <audio src="/drum-kit/sons/tom.wav" data-key="KeyK"></audio>
+    <audio src="/drum-kit/sons/tink.wav" data-key="KeyL"></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
