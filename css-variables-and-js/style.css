@@ -1,6 +1,7 @@
 :root {
   --color: #000000;
   --blur: 10px;
+  --spacing: 10px;
 }
 
 body {
@@ -30,6 +31,6 @@ input[type='range'] {
 img {
   width: 60%;
   height: 60%;
-  margin: none;
   filter: blur(var(--blur));
+  padding: var(--spacing);
 }
